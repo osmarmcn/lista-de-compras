@@ -1,0 +1,110 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #5b5b5b;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #000;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(255, 255, 255);
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        span{
+            color: darkgray;
+            font-size: 1.2rem;
+            font-weight: bold;
+            
+        }
+
+       
+
+        .input-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: transparent;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: .4s ease-in-out;
+            outline: none;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            color: #fff;
+        }
+
+        .adicionar-btn{
+            color: #45a049;
+            border: 2px solid #45a049;
+        }
+
+        .shopping-list {
+            list-style: none;
+        }
+
+        .shopping-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            /* border-bottom: 1px solid #eee; */
+            gap: 10px;
+        }
+
+        .shopping-item:last-child {
+            border-bottom: none;
+        }
+
+        .shopping-item.completed {
+            background-color: #f8f8f8;
+            text-decoration: line-through;
+            color: #888;
+            border-radius: 10px;
+        }
+
+        .delete-btn {
+            background-color: transparent;
+            margin-left: auto;
+            color: #cc0000;
+            border: 2px solid #cc0000;
+        }
+
+        .delete-btn:hover {
+            background-color: #cc0000;
+            color: #fff;
+        }
+
+        .empty-list {
+            text-align: center;
+            color: #666;
+            padding: 20px;
+        }
